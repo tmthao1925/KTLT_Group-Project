@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-void createSemester(Semester& semester) {
+void createSemester(Semester* &semester) {
     cout << "Enter semester number: ";
     cin >> semester.number;
 
